@@ -24,10 +24,6 @@ public class MainActivity extends AppCompatActivity {
     APHeaderView mHeaderView;
     AlipayAdapter mAdapter;
 
-
-
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

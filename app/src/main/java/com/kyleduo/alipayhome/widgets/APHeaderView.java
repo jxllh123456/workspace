@@ -283,7 +283,7 @@ public class APHeaderView extends ViewGroup {
                 }
                 mTempFlingDispatchConsumed += -delta;
 
-                
+
             }
 
             return consumed + delta;
