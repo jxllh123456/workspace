@@ -282,6 +282,8 @@ public class APHeaderView extends ViewGroup {
                     delta = header.mOnHeaderFlingUnConsumedListener.onFlingUnConsumed(header, newOffset, unconsumedY);
                 }
                 mTempFlingDispatchConsumed += -delta;
+
+                
             }
 
             return consumed + delta;
