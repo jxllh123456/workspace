@@ -76,12 +76,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onScrollStateChanged(RecyclerView recyclerView, int newState) {
                 super.onScrollStateChanged(recyclerView, newState);
-                if (newState == RecyclerView.SCROLL_STATE_IDLE) {
-                    APHeaderView.Behavior behavior = mHeaderView.getBehavior();
-                    if (behavior != null) {
-                        behavior.checkSnap((CoordinatorLayout) mHeaderView.getParent(), mHeaderView);
-                    }
-                }
+//                if (newState == RecyclerView.SCROLL_STATE_IDLE) {
+//                }
             }
         });
 
